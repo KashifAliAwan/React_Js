@@ -6,11 +6,10 @@ function App() {
   function addNum() {
     setNum(num += 1)
     console.log(num);
-
   }
   function subNum() {
     if (num > 0) {
-      setNum(num - 1)
+      setNum(num -= 1)
       console.log(num);
     }
 
